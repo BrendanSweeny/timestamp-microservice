@@ -3,9 +3,9 @@ A simple timestamp API built with Node.js and Express.js
 
 # Example Input
 
-https://timestamp-brendansweeny.c9users.io:8080/June%2023%202016
+https://lychee-shortcake-46779.herokuapp.com/June%2023%202016
 
-https://timestamp-brendansweeny.c9users.io:8080/1466640000
+https://lychee-shortcake-46779.herokuapp.com/1466640000
 
 # Example Output
 

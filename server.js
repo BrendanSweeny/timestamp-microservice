@@ -14,7 +14,7 @@ app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
 //Passes express object for routing on index.js
 routes(app);
 
-//listens to port assigned in .env (heroku) or 8080 locally
+//listens to port assigned in .env (by heroku) or 8080 locally
 app.listen(process.env.PORT || 8080, function() {
     console.log("Server listening on port 8080...");
 });
