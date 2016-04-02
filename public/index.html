@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Timestamp Microservice API</title>
+    <link rel="stylesheet"  href="/public/css/main.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+        <h1>Timestamp Microservice API</h1>
+        <h4>Built with Node.js and Express.js</h4>
+        <blockquote>
+            <h3>User Stories:</h3>
+            <ol>
+                <li>The microservice will check if a Unix timestamp or natural
+                    language date string is passed</li>
+                <li>If it is, it returns both the Unix timestamp and natural
+                    language form of that date</li>
+                <li>If it does not contain a natural date string or Unix
+                    timestamp, it returns null for both properties</li>
+            </ol>
+        </blockquote>
+        <h2>Example Input</h2>
+        <code>https://timestamp-brendansweeny.c9users.io:8080/June%2023%202016</code><br>
+        <code>https://timestamp-brendansweeny.c9users.io:8080/1466640000</code>
+        <h2>Example Output</h2>
+        <code>{"unix":1466640000,"natural":"June 23, 2016"}</code>
+    </div>
+</body>

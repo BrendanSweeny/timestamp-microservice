@@ -1,0 +1,18 @@
+body {
+    font-family: 'Droid Serif', serif;
+}
+
+.container {
+    margin-left: 20%;
+}
+
+blockquote {
+    border-left: 5px solid lightgrey;
+    padding-left: 10px;
+}
+
+code {
+    color: darkred;
+    background-color: #EFEFEF;
+    border-radius: 2px;
+}
